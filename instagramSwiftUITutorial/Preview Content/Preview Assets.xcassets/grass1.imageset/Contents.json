@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "agata-create-4SbDro9ND5c-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "agata-create-4SbDro9ND5c-unsplash 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "agata-create-4SbDro9ND5c-unsplash 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
