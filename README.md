@@ -31,6 +31,7 @@ ScrollView {
 🥑 Stack 뷰로 만들어진다
 
 .clipShape(Circle()) : 모양 둥글게
+
 .padding()
 
 ```
@@ -62,6 +63,7 @@ VStack(alignment: .leading) {
 🥑 NavigationView : 상단
 
 .navigationTitle() : 네비게이션 제목
+
 .navigationBarTitleDisplayMode() : 네비게이션 제목 모양
 
 ```
@@ -78,4 +80,15 @@ NavigationView {
   .tint(.black)
 }
 ```
+🥑 LazyVStack
+VStack뷰와의 차이점은 메모리와 캐시에 있다.
 
+```
+ScrollView {
+  LazyVStack(spacing: 32) {
+    ForEach(0..<10) {_ in
+      FeedCell()
+    }
+  }
+}
+```
